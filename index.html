@@ -11,10 +11,17 @@
             padding: 0;
         }
         header {
-            background-color: #004aad;
+            background-color: #398CD9;
             color: white;
             text-align: center;
             padding: 20px;
+        }
+        header img {
+            width: 600px; /* Largura fixa */
+            height: 300px; /* Altura fixa */
+            object-fit: cover; /* Garante que a imagem seja ajustada sem distorção */
+            margin: 0 auto;
+            display: block;
         }
         section {
             padding: 20px;
@@ -58,8 +65,10 @@
 <body>
 
 <header>
-    <h1>Cloud Cost Save</h1>
-    <p>Consultoria em Nuvem e Otimização de Custos</p>
+    <img src="cloud_logo.png" alt="Cloud Cost Save Logo">
+    <h1>Consultoria em Nuvem e Otimização de Custos</h1>
+
+    <!-- <p></p> -->
 </header>
 
 <section>
