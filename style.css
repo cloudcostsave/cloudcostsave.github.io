@@ -1,0 +1,48 @@
+.services {
+    margin-left: 20px; /* Adiciona a margem à esquerda */
+    padding: 20px; /* Adiciona um espaçamento interno */
+    background-color: #f9f9f9; /* Define um fundo claro para destacar */
+    border-radius: 8px; /* Bordas arredondadas para suavizar */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.services h2 {
+    font-size: 2rem; /* Tamanho da fonte para o título */
+    color: #333; /* Cor escura para o título */
+    margin-bottom: 10px; /* Espaçamento inferior do título */
+}
+
+.services p {
+    font-size: 1.1rem; /* Tamanho da fonte do parágrafo */
+    color: #555; /* Cor mais suave para o texto */
+    margin-bottom: 15px; /* Espaçamento inferior do parágrafo */
+}
+
+.services ul {
+    list-style-type: disc; /* Adiciona pontos de lista */
+    padding-left: 20px; /* Adiciona espaço à esquerda da lista */
+}
+
+.services li {
+    font-size: 1rem; /* Tamanho da fonte das listas */
+    color: #444; /* Cor das listas */
+    margin-bottom: 10px; /* Espaçamento inferior entre os itens */
+}
+
+@media (max-width: 768px) {
+    .services {
+        margin-left: 10px; /* Reduz a margem em telas menores */
+    }
+
+    .services h2 {
+        font-size: 1.5rem; /* Ajusta o tamanho do título em telas menores */
+    }
+
+    .services p {
+        font-size: 1rem; /* Ajusta o tamanho do parágrafo em telas menores */
+    }
+
+    .services li {
+        font-size: 0.9rem; /* Ajusta o tamanho das listas em telas menores */
+    }
+}
